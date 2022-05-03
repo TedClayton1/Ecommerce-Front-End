@@ -22,7 +22,7 @@ function ProductScreen({ match }) {
                       </ListGroup.Item>
 
                       <ListGroup.Item>
-                          <Review value={product.rating} text={'${product.numReviews} reviews'} color={'#f8e825'} />
+                          <Rating value={product.rating} text={`${product.numReviews} reviews`} color={'#f8e825'} />
                       </ListGroup.Item>
                   </ListGroup>
               </Col>
